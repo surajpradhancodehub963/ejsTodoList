@@ -1,0 +1,22 @@
+<%- include('./partials/header.ejs') %>
+<div class="signup ">
+    <h1 class="text-center pt-2">signup</h1>
+    <form action="/signup" method="post" class="p-4 shadow rounded">
+        <div class="form-group mb-2 ">
+            <label for="Full_Name">Full Name</label>
+            <input type="text" class="form-control" id="Full_Name" placeholder="Enter your fullname" name="fullName">
+        </div>
+        <div class="form-group mb-2 ">
+            <label for="Email">Email</label>
+            <input type="text" class="form-control" id="Email" placeholder="example@gmail.com" name="userEmail">
+        </div>
+        <div class="form-group mb-2">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password" name="userPassword">
+        </div>
+        <div class="text-center pt-2">
+            <button type="submit" class="btn btn-info">signup</button>
+        </div>
+    </form>
+</div>
+<%- include('./partials/footer.ejs') %>

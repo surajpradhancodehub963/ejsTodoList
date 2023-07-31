@@ -1,0 +1,28 @@
+.login,
+.signup{
+    height: 100vh;
+}
+.login h1,
+.signup h1{
+    color: rgb(23, 23, 24);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Unbounded", cursive;
+    letter-spacing: 1px;
+}
+.login form,
+.signup form{
+    width: 40%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.login label,
+.signup label{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Unbounded", cursive;
+    letter-spacing: 1px;
+}
